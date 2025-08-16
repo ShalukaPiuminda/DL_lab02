@@ -1,0 +1,5 @@
+Q1: What happens when the number of hidden nodes increase?
+A1: When hidden nodes increase, the model can represent more complex functions. The accuracy usually improves because the network can fit the training data better. Too many hidden nodes may cause overfitting.
+
+Q2: Can you explain the pattern of the accuracy when the hidden nodes increase?
+A2: With very few hidden nodes, the network underfits, so accuracy is low. As the number of hidden nodes increases, the accuracy improves. After a certain point, adding more hidden nodes does not give much improvement and may even hurt generalization because of overfitting.
